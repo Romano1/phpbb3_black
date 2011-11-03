@@ -261,7 +261,6 @@ $(document).ready(function()
 */
 phpBB.resizeContent = function()
 {
-//	$('body').append('<br />window: ' + $(window).height() + ', logo: ' + $('.phpbb .logo:first').height() + ', h: ' + Math.floor($(window).height() - $('.phpbb .logo:first').height() - 50));
 	var content = $('.phpbb .page-content'),
 		h = content.height(),
 		pageHeight = $('.phpbb').height();
