@@ -151,7 +151,7 @@ body.phpbb, body.simple {
 }
 .phpbb input[type="submit"], .phpbb .button1, .phpbb .button2, .phpbb .buttons a, .phpbb a.button {
 	color: #fff !important;
-	background-color: #1964b0;
+	background-color: #163b60;
 	background-image: url("{T_THEME_PATH}/images/buttons_bg.png");
 	border-color: #000;
 	text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0;
