@@ -800,12 +800,12 @@
 /*
 	Tabs
 */
-.phpbb #tabs ul {
+.phpbb #tabs ul, .phpbb #minitabs ul {
 	clear: both;
 	display: block;
 	margin: 10px 6px -6px;
 }
-.ie7 .phpbb #tabs ul {
+.ie7 .phpbb #tabs ul, .ie7 .phpbb #minitabs ul {
 	height: 1%;
 }
 .phpbb #tabs ul.main-tabs, .phpbb #tabs.cp-tabs ul {
@@ -817,13 +817,13 @@
 .phpbb #tabs ul + ul {
 	margin-top: 2px;
 }
-.phpbb #tabs li {
+.phpbb #tabs li, .phpbb #minitabs li {
 	display: block;
 	float: left;
 	margin: 0 1px;
 	padding: 0;
 }
-.phpbb #tabs li a {
+.phpbb #tabs li a, .phpbb #minitabs li a {
 	display: block;
 	padding: 5px 6px;
 	border: 1px solid transparent;

@@ -408,17 +408,17 @@ body.phpbb, body.simple {
 /*
 	Tabs
 */
-.phpbb #tabs li a {
+.phpbb #tabs li a, .phpbb #minitabs li a {
 	background-color: #282828;
 	border-color: #000;
 	color: #bbb;
 }
-.phpbb #tabs li.activetab a, .phpbb #tabs #active-subsection a {
+.phpbb #tabs li.activetab a, .phpbb #minitabs li.activetab a, .phpbb #tabs #active-subsection a {
 	background-color: #163b60;
 	background-image: url("{T_THEME_PATH}/images/white25_05.png");
 	color: #fff;
 }
-.phpbb #tabs li a:hover, .phpbb #tabs li.activetab a:hover, .phpbb #tabs #active-subsection a:hover {
+.phpbb #tabs li a:hover, .phpbb #tabs li.activetab a:hover, .phpbb #tabs #active-subsection a:hover, .phpbb #minitabs li a:hover, .phpbb #minitabs li.activetab a:hover {
 	background-color: #af1818;
 	color: #fff;
 }
