@@ -475,7 +475,7 @@ body.simple {
 .ie7 .phpbb .navbar, .ie7 .phpbb .linkmcp {
 	height: 12px;
 }
-.phpbb .navbar:after, .phpbb .linklist:after, .phpbb .topic-actions:after, .phpbb #tabs ul:after, .phpbb dl.details:after {
+.phpbb .navbar:after, .phpbb .linklist:after, .phpbb .topic-actions:after, .phpbb #tabs ul:after, .phpbb #minitabs ul:after, .phpbb dl.details:after {
 	content: '';
 	display: block;
 	clear: both;

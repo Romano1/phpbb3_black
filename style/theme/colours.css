@@ -451,22 +451,22 @@ body.phpbb, body.simple {
 /*
 	Tabs
 */
-.phpbb #tabs li a {
+.phpbb #tabs li a, .phpbb #minitabs li a {
 	background-color: #f8f8f8;
 	border-color: #d8d8d8;
 }
-.phpbb #tabs li a:hover {
+.phpbb #tabs li a:hover, .phpbb #minitabs li a:hover {
 	background-color: #43688e;
 	border-color: #43688e;
 	color: #fff;
 }
-.phpbb #tabs li.activetab a, .phpbb #tabs #active-subsection a {
+.phpbb #tabs li.activetab a, .phpbb #tabs #active-subsection a, .phpbb #minitabs li.activetab a {
 	background-color: #43688e;
 	border-color: #43688e;
 	background-image: url("{T_THEME_PATH}/images/category.png");
 	color: #fff;
 }
-.phpbb #tabs li.activetab a:hover, .phpbb #tabs #active-subsection a:hover {
+.phpbb #tabs li.activetab a:hover, .phpbb #tabs #active-subsection a:hover, .phpbb #minitabs li.activetab a:hover {
 	background-color: #af2a2a;
 	border-color: #af2a2a;
 	color: #fff;
