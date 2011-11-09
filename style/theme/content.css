@@ -115,6 +115,9 @@
 	width: 40%;
 	text-align: left;
 }
+.phpbb .topiclist dd.empty {
+	display: none;
+}
 
 .ie7 .phpbb .topiclist dl {
 	display: block;
