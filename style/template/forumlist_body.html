@@ -46,6 +46,8 @@
 						<!-- IF forumrow.LAST_POST_TIME --><dfn>{L_LAST_POST}</dfn> <span class="by">{L_POST_BY_AUTHOR}</span> {forumrow.LAST_POSTER_FULL}
 						<!-- IF not S_IS_BOT --><a href="{forumrow.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{forumrow.LAST_POST_TIME}<!-- ELSE -->{L_NO_POSTS}<!-- ENDIF --></span>
 					</dd>
+				<!-- ELSE -->
+					<dd class="empty"></dd>
 				<!-- ENDIF -->
 			</dl>
 		</li>
