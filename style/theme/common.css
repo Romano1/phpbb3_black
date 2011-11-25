@@ -136,7 +136,8 @@ body.simple {
 	vertical-align: middle;
 }
 .ie7 .phpbb ul.page-header {
-	float: left;
+	display: block;
+	height: 1%;
 }
 .ie7 .phpbb ul.page-header li {
 	display: block;
