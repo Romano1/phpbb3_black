@@ -136,11 +136,11 @@ body.simple {
 	background: transparent none right top no-repeat;
 }
 
-.phpbb .wrap-content {
+.phpbb .content-wrapper {
 	margin: -800px auto 0;
 	padding: 0 20px;
 }
-.phpbb.fixed-width .wrap-content {
+.phpbb.fixed-width .content-wrapper {
 	width: 1000px;
 }
 .phpbb .logo {
