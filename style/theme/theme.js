@@ -265,7 +265,7 @@ phpBB.resizeContent = function()
 		pageHeight = $('.phpbb').height();
 	if(!pageHeight)
 	{
-		pageHeight = $('.phpbb .wrap-content').height() + 50;
+		pageHeight = $('.phpbb .content-wrapper').height() + 50;
 	}
 	var diff = pageHeight - h;
 	$('.phpbb .page-content').css('min-height', Math.max(780, Math.floor($(window).height() - diff)) + 'px');
