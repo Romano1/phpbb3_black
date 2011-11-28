@@ -141,6 +141,9 @@ body.phpbb, body.simple {
 	background-color: #333;
 	border-color: #000;
 }
+.phpbb select {
+	color: #eee;
+}
 .phpbb input[type="text"]:hover, .phpbb input[type="password"]:hover, .phpbb input[type="email"]:hover, .phpbb textarea:hover, .phpbb select:hover {
 	color: #fff;
 	border-color: #1964b0;
