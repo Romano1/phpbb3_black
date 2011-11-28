@@ -545,6 +545,7 @@
 	vertical-align: top;
 	min-width: 190px;
 	vertical-align: top;
+	padding-bottom: 10px;
 }
 .phpbb .post .postprofile {
 	padding: 0 4px 4px 0;
@@ -573,6 +574,7 @@
 	display: none;
 }
 .phpbb .post .content {
+	padding-bottom: 4px;
 	word-wrap: break-word;
 	overflow: hidden;
 }
