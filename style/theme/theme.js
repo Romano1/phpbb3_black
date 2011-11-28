@@ -251,8 +251,11 @@ $(document).ready(function()
 	/*
 		Content size
 	*/
-	phpBB.resizeContent();
-	$(window).resize(function() { phpBB.resizeContent(); });
+	if($('.phpbb .page-content').length)
+	{
+		phpBB.resizeContent();
+		$(window).resize(function() { phpBB.resizeContent(); });
+	}
 });
 
 /*
