@@ -653,6 +653,8 @@
 }
 .phpbb .postbody .profile-icons li {
 	float: left;
+	width: auto !important;
+	background: none !important;
 }
 
 .phpbb .profile-icons a {
