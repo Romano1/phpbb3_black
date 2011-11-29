@@ -454,6 +454,6 @@ body.phpbb, body.simple {
 	Avatars gallery
 */
 .phpbb #gallery label:hover {
-	border-color: #d0d0d0;
-	background-color: #fafafa;
+	border-color: #000;
+	background-color: #333;
 }
