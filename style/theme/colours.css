@@ -450,3 +450,10 @@ body.phpbb, body.simple {
 	color: #999;
 }
  
+/*
+	Avatars gallery
+*/
+.phpbb #gallery label:hover {
+	border-color: #d0d0d0;
+	background-color: #fafafa;
+}
