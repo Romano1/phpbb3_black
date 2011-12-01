@@ -503,3 +503,10 @@ body.phpbb, body.simple {
 	border-color: #d0d0d0;
 	background-color: #fafafa;
 }
+
+/*
+	RSS feed
+*/
+.phpbb a.feed-icon-forum {
+	background-image: url("{T_THEME_PATH}/images/rss.png");
+}
