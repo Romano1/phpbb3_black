@@ -457,3 +457,10 @@ body.phpbb, body.simple {
 	border-color: #000;
 	background-color: #333;
 }
+
+/*
+	RSS feed
+*/
+.phpbb a.feed-icon-forum {
+	background-image: url("{T_THEME_PATH}/images/rss.png");
+}

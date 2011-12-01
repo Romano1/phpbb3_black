@@ -962,3 +962,20 @@
 	text-align: center;
 	border: 1px solid transparent;
 }
+
+/*
+	RSS feed
+*/
+.phpbb a.feed-icon-forum {
+	display: block;
+	float: right;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 18px 0 0 18px;
+	background: transparent none 0 0 no-repeat;
+}
+.phpbb a.feed-icon-forum:hover {
+	background-position: 0 -20px;
+}
