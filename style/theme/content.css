@@ -777,6 +777,7 @@
 }
 .phpbb fieldset dl {
 	padding: 4px 0;
+	clear: left;
 }
 .phpbb fieldset dt {
 	float: left;
