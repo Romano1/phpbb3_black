@@ -70,6 +70,10 @@
 	background-repeat: no-repeat;
 }
 
+.phpbb #edit_reason {
+	width: 90%;
+}
+
 /*
 	Buttons
 */
