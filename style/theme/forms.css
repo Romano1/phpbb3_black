@@ -38,10 +38,26 @@
 	border-width: 0;
 	border-radius: 5px;
 }
+.ie7 .phpbb input[type="submit"], .ie7 .phpbb .button1, .ie7 .phpbb .button2 {
+	padding-top: 0;
+	padding-bottom: 1px;
+	margin-top: 0;
+}
 .phpbb a.button1, .phpbb a.button2, .phpbb .buttons a, .phpbb a.button {
 	line-height: 1em;
 	padding: 4px 10px 0;
 	height: 19px;
+}
+.oldie .phpbb a.button1, .oldie .phpbb a.button2, .oldie .phpbb .buttons a, .oldie .phpbb a.button {
+	padding-top: 5px;
+}
+.ie7 .phpbb a.button1, .ie7 .phpbb a.button2, .ie7 .phpbb .buttons a, .ie7 .phpbb a.button {
+	padding-top: 4px;
+	padding-bottom: 0;
+}
+.ie7 .phpbb .popup a.button1, .ie7 .phpbb .popup a.button2 {
+	position: relative;
+	top: 2px;
 }
 
 .phpbb input[type="checkbox"], .phpbb input[type="radio"] {
