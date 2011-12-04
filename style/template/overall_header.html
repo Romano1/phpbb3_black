@@ -73,9 +73,9 @@
 			<!-- IF U_RESTORE_PERMISSIONS --><li><a href="{U_RESTORE_PERMISSIONS}" class="menu-login"><span>{L_RESTORE_PERMISSIONS}</span></a></li><!-- ENDIF -->
 			<!-- IF not S_IS_BOT and S_USER_LOGGED_IN -->
 				<!-- IF S_DISPLAY_PM -->
-					<li><a href="{U_PRIVATEMSGS}" class="menu-pm">{PRIVATE_MESSAGE_INFO}</a></li>
+					<li<!-- IF SCRIPT_NAME == 'ucp' and $UCP_PM --> class="active"<!-- ENDIF -->><a href="{U_PRIVATEMSGS}" class="menu-pm">{PRIVATE_MESSAGE_INFO}</a></li>
 				<!-- ENDIF -->
-				<li<!-- IF SCRIPT_NAME == 'ucp' --> class="active"<!-- ENDIF -->><a href="{U_PROFILE}" title="{L_PROFILE}" class="menu-ucp"><span>{L_PROFILE}</span></a></li>
+				<li<!-- IF SCRIPT_NAME == 'ucp' and not $UCP_PM --> class="active"<!-- ENDIF -->><a href="{U_PROFILE}" title="{L_PROFILE}" class="menu-ucp"><span>{L_PROFILE}</span></a></li>
 			<!-- ENDIF -->
 			<!-- IF S_DISPLAY_SEARCH -->
 				<li class="popup-trigger<!-- IF SCRIPT_NAME == 'search' --> active<!-- ENDIF -->">
