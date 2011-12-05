@@ -104,8 +104,8 @@
 	width: 50px;
 }
 
-.phpbb .topiclist dd.lastpost, .phpbb .topiclist dd.redirect {
-	width: 220px;
+.phpbb .topiclist dd.lastpost, .phpbb .topiclist dd.redirect, .phpbb .topiclist dd.info {
+	min-width: 220px;
 	text-align: left;
 	font-size: 11px;
 	line-height: 1.3em;
