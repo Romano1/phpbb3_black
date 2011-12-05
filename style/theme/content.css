@@ -75,7 +75,6 @@
 
 .phpbb .topiclist > li {
 	background: transparent none 0 0 repeat-x;
-	border-bottom: 1px solid transparent;
 	margin: 2px 0;
 	padding: 4px 0;
 	border: 1px solid transparent;
@@ -864,6 +863,9 @@
 	min-width: 140px;
 	min-height: 60px;
 	overflow: auto;
+}
+.phpbb dl.mini dt {
+	padding-bottom: 3px;
 }
 
 .phpbb #cp-main {
