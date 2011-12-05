@@ -862,6 +862,9 @@
 	min-height: 60px;
 	overflow: auto;
 }
+.phpbb dl.mini dt {
+	padding-bottom: 3px;
+}
 
 .phpbb #cp-main {
 	clear: both;
