@@ -742,7 +742,7 @@
 /*
 	BBCode
 */
-.phpbb blockquote, .phpbb .attachbox, .phpbb .codebox {
+.phpbb blockquote, .phpbb .attachbox, .phpbb .codebox, .phpbb .inline-attachment {
 	border: 1px solid transparent;
 	margin: 5px 20px;
 	padding: 4px;
