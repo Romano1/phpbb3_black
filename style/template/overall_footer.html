@@ -27,9 +27,13 @@
 		<!-- ENDIF -->
 		<!-- IF not $S_FOOTER_NAV --><a href="{U_INDEX}">{L_INDEX}</a><!-- ENDIF -->
 	</div>
-	<!-- IF U_ACP -->
+	<!-- IF not S_IS_BOT -->
 		<div class="right">
-			<a href="{U_ACP}">{L_ACP}</a>
+			<a href="{U_DELETE_COOKIES}">{L_DELETE_COOKIES}</a>
+			<!-- IF U_ACP -->
+				<span class="bull">&bull;</span>
+				<a href="{U_ACP}">{L_ACP}</a>
+			<!-- ENDIF -->
 		</div>
 	<!-- ENDIF -->
 </div>
