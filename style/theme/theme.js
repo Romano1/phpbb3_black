@@ -210,8 +210,8 @@ $(document).ready(function()
 		Inner blocks
 	*/
 	$('.post > div, .panel > div').addClass('inner');
-	$('div.panel div.post, div.panel ul.topiclist, div.panel table.table1, div.panel dl.panel').parents('div.panel').addClass('panel-wrapper');
-	$('#cp-main .panel').each(function()
+	$('.phpbb div.panel div.post, .phpbb div.panel ul.topiclist, .phpbb div.panel table.table1, .phpbb div.panel dl.panel').parents('.phpbb div.panel').addClass('panel-wrapper');
+	$('.phpbb #cp-main .panel').each(function()
 	{
 		var inner = $(this).find('.inner:first');
 		if(!inner.length) return;
