@@ -392,10 +392,10 @@ body.phpbb, body.simple {
 /*
 	BBCode
 */
-.phpbb blockquote, .phpbb blockquote cite, .phpbb .attachbox, .phpbb .attachbox dt, .phpbb .codebox, .phpbb .codebox dt {
+.phpbb blockquote, .phpbb blockquote cite, .phpbb .attachbox, .phpbb .attachbox dt, .phpbb .codebox, .phpbb .codebox dt, .phpbb .inline-attachment {
 	border-color: #000;
 }
-.phpbb blockquote, .phpbb .attachbox, .phpbb .codebox {
+.phpbb blockquote, .phpbb .attachbox, .phpbb .codebox, .phpbb .inline-attachment {
 	background-color: #303030;
 }
 .phpbb blockquote blockquote, .phpbb blockquote .attachbox, .phpbb blockquote .codebox {
