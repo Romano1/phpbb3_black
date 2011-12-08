@@ -68,6 +68,7 @@ body.simple {
 	display: block;
 	clear: both;
 	height: 0;
+	overflow: hidden;
 }
 .phpbb .right {
 	text-align: right;
