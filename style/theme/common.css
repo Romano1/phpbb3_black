@@ -67,6 +67,7 @@ body.simple {
 .phpbb .clear, .phpbb span.corners-bottom {
 	display: block;
 	clear: both;
+	height: 0;
 }
 .phpbb .right {
 	text-align: right;
