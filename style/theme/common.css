@@ -296,6 +296,9 @@ body.simple {
 	text-align: right;
 	padding: 0;
 }
+.oldie .phpbb .footer .copyright {
+	float: none;
+}
 .phpbb .footer .arty, .phpbb .footer .phpbb-group {
 	display: block;
 	float: right;
