@@ -222,6 +222,10 @@
 	padding: 10px;
 	line-height: 1.2em;
 }
+.phpbb #information.rules .inner {
+	text-align: center;
+	padding: 20px;
+}
 
 .phpbb .panel-wrapper {
 	border-width: 0;
