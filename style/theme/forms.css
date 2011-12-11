@@ -75,6 +75,7 @@
 }
 .phpbb #format-buttons .button2 {
 	border-width: 1px;
+	width: auto !important;
 }
 .ie7 .phpbb #format-buttons .button2 {
 	padding: 0;
