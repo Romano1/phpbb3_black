@@ -4,7 +4,7 @@
 
 .phpbb h2, .phpbb h3 {
 	color: #1d4d7e;
-	text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .phpbb hr {
@@ -24,7 +24,7 @@
 }
 
 .phpbb a.forumtitle, .phpbb a.topictitle {
-	text-shadow: rgba(128, 128, 128, 0.1) 1px 1px 1px;
+	text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.1);
 }
 
 /*
@@ -54,7 +54,7 @@ body.phpbb, body.simple {
 
 .phpbb .logo h1 {
 	color: rgba(255, 255, 255, 0.8);
-	text-shadow: rgba(29, 77, 126, 0.4) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(29, 77, 126, 0.4);
 }
 .oldie .phpbb .logo h1 {
 	color: #dde4ea;
@@ -73,7 +73,7 @@ body.phpbb, body.simple {
 .phpbb .sitenav h2 {
 	background-image: url("{T_THEME_PATH}/images/header_arrow.png");
 	color: rgba(255, 255, 255, 0.8);
-	text-shadow: rgba(29, 77, 126, 0.4) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(29, 77, 126, 0.4);
 }
 .oldie .phpbb .sitenav h2 {
 	color: #dde4ea;
@@ -81,7 +81,7 @@ body.phpbb, body.simple {
 
 .phpbb .sitenav .links a, .phpbb .sitenav .links a:before, .phpbb .sitenav .links a:after {
 	background-image: url("{T_THEME_PATH}/images/buttons.png");
-	text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 	color: rgba(255, 255, 255, 0.8);
 }
 .oldie .phpbb .sitenav .links a {
@@ -108,7 +108,7 @@ body.phpbb, body.simple {
 }
 .phpbb .footer, .phpbb .footer a, .phpbb .footer a:visited {
 	color: #92a8be;
-	text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 .phpbb .footer a:hover {
 	color: #fff;
@@ -128,7 +128,7 @@ body.phpbb, body.simple {
 
 .phpbb .time {
 	color: rgba(0, 0, 0, 0.5);
-	text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
 }
 .oldie .phpbb .time {
 	color: #808080;
@@ -167,7 +167,7 @@ body.phpbb, body.simple {
 .phpbb .popup {
 	background-color: rgba(248, 248, 248, 0.9);
 	border-color: #9caec0;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 0 2px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .oldie .phpbb .popup {
 	background-color: #f8f8f8;
@@ -212,7 +212,7 @@ body.phpbb, body.simple {
 	background-color: #43688e;
 	background-image: url("{T_THEME_PATH}/images/buttons_bg.png");
 	border-color: #43688e;
-	text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 .phpbb input[type="submit"]:hover, .phpbb .button1:hover, .phpbb .button2:hover, .phpbb .buttons a:hover, .phpbb a.button:hover {
 	background-color: #af2a2a;
@@ -242,7 +242,7 @@ body.phpbb, body.simple {
 	background-image: url("{T_THEME_PATH}/images/white10.png");
 	color: #808080 !important;
 	border-color: #d0d0d0;
-	text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
 }
 .phpbb #format-buttons .button2:hover {
 	background-color: #1d4d7e;
@@ -271,7 +271,7 @@ body.phpbb, body.simple {
 .phpbb .topiclist .header, .phpbb .topiclist .header a, .phpbb .topiclist .header a:visited, .phpbb h2.header, .phpbb h2.header a, .phpbb h2.header a:visited,
 .phpbb table.table1 th, .phpbb table.table1 th a, .phpbb table.table1 th a:visited {
 	color: rgba(255, 255, 255, 0.9);
-	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 .oldie .phpbb .topiclist .header, .oldie .phpbb .topiclist .header a, .oldie .phpbb .topiclist .header a:visited, .oldie .phpbb h2.header, .oldie .phpbb h2.header a,
 .phpbb .topiclist .header a:hover, .phpbb h2.header a:hover, .oldie .phpbb table.table1 th, .oldie .phpbb table.table1 th a, .oldie .phpbb table.table1 th a:visited .phpbb table.table1 th a:hover {
