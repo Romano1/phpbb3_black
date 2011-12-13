@@ -68,6 +68,9 @@
 .phpbb select {
 	max-width: 250px;
 }
+.ie7 .phpbb select {
+	width: 250px;
+}
 
 .phpbb fieldset.submit-buttons {
 	text-align: center;

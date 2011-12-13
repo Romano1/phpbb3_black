@@ -805,6 +805,9 @@
 	padding: 4px 0;
 	clear: left;
 }
+.ie7 .phpbb fieldset dl {
+	height: 1%;
+}
 .phpbb fieldset dt {
 	float: left;
 	width: 40%;
