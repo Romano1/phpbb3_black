@@ -363,6 +363,10 @@ body.phpbb, body.simple {
 	background-image: url("{T_THEME_PATH}/images/arrow_down.png");
 }
 
+.phpbb .post > .inner > .back2top a {
+	background-image: url("{IMG_ICON_BACK_TOP_SRC}");
+}
+
 
 /*
 	Pagination
