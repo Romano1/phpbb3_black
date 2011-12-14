@@ -453,7 +453,7 @@
 	padding: 4px 0 4px 4px;
 }
 .phpbb .polls dt {
-	width: 30%;
+	width: 95%;
 	clear: left;
 	padding-left: 0;
 }
@@ -471,6 +471,9 @@
 }
 .ie7 .phpbb .polls dt, .ie7 .phpbb .polls dd {
 	float: left;
+}
+.ie7 .phpbb .polls dt {
+	width: 30%;
 }
 .ie7 .phpbb .polls dd {
 	width: 10%;
