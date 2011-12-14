@@ -522,6 +522,7 @@
 	margin: 6px 0;
 	clear: both;
 	background: transparent none 0 0 repeat-x;
+	position: relative;
 }
 .phpbb .post > .inner {
 	display: table;
@@ -579,8 +580,21 @@
 }
 
 .phpbb .post > .inner > .back2top {
-	display: none;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	right: 8px;
+	bottom: 6px;
 }
+.phpbb .post > .inner > .back2top a {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 14px;
+	font-size: 11px;
+	white-space: nowrap;
+	background: transparent none 100% 50% no-repeat;
+}
+
 .phpbb .post .content {
 	padding-bottom: 4px;
 	word-wrap: break-word;
@@ -806,6 +820,9 @@
 .phpbb fieldset dl {
 	padding: 4px 0;
 	clear: left;
+}
+.ie7 .phpbb fieldset dl {
+	height: 1%;
 }
 .phpbb fieldset dt {
 	float: left;
