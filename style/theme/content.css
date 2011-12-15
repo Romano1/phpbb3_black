@@ -958,6 +958,9 @@
 .phpbb dl.details {
 	line-height: 1.2em;
 }
+.phpbb span.corners-top + dl.details.left-box {
+	width: 100% !important;
+}
 .phpbb dl.details dt {
 	clear: left;
 	float: left;
