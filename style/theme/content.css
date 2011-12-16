@@ -331,6 +331,7 @@
 .phpbb .pagination {
 	margin: 0;
 	padding: 0;
+	line-height: 1em;
 }
 .ie7 .phpbb .topic-actions {
 	min-height: 28px;
@@ -729,6 +730,28 @@
 	background-position: -63px -21px;
 }
 
+/*
+	Other icons
+*/
+.phpbb .postprofile .pm-icon, .phpbb .postprofile .email-icon, .phpbb .postprofile .web-icon, .phpbb .postprofile .msnm-icon, .phpbb .postprofile .icq-icon, .phpbb .postprofile .yahoo-icon, .phpbb .postprofile .aim-icon, .phpbb .postprofile .jabber-icon {
+	display: none;
+}
+
+.phpbb .profile-icons .pm-icon a, .phpbb .profile-icons .email-icon a, .phpbb .profile-icons .web-icon a, .phpbb .profile-icons .msnm-icon a, .phpbb .profile-icons .icq-icon a, .phpbb .profile-icons .yahoo-icon a, .phpbb .profile-icons .aim-icon a, .phpbb .profile-icons .jabber-icon a {
+	display: inline;
+	width: auto;
+	height: auto;
+	background-color: transparent !important;
+	background-image: none !important;
+	text-decoration: underline !important;
+}
+.phpbb .profile-icons .pm-icon span, .phpbb .profile-icons .email-icon span, .phpbb .profile-icons .web-icon span, .phpbb .profile-icons .msnm-icon span, .phpbb .profile-icons .icq-icon span, .phpbb .profile-icons .yahoo-icon span, .phpbb .profile-icons .aim-icon span, .phpbb .profile-icons .jabber-icon span {
+	display: inline;
+}
+
+/*
+	Post content
+*/
 .phpbb .postbody .content {
 	font-size: 13px;
 	line-height: 1.2em;
@@ -958,6 +981,9 @@
 
 .phpbb dl.details {
 	line-height: 1.2em;
+}
+.phpbb span.corners-top + dl.details.left-box {
+	width: 100% !important;
 }
 .phpbb dl.details dt {
 	clear: left;
