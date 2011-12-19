@@ -88,7 +88,7 @@
 .phpbb .topiclist dt, .phpbb .topiclist dd {
 	display: table-cell;
 	vertical-align: middle;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	height: 33px;
 	padding: 2px 6px;
 }
@@ -102,19 +102,20 @@
 .phpbb .topiclist dd {
 	border-left: 1px solid transparent;
 	text-align: center;
+	line-height: 1.3em;
 	width: 50px;
 }
 
 .phpbb .topiclist dd.info, .phpbb .topiclist dd.time {
 	min-width: 220px;
 	font-size: 11px;
-	line-height: 1.3em;
+	line-height: 1.5em;
 }
 .phpbb .topiclist dd.lastpost, .phpbb .topiclist dd.redirect {
 	min-width: 220px;
 	text-align: left;
 	font-size: 11px;
-	line-height: 1.3em;
+	line-height: 1.5em;
 }
 .phpbb .topiclist dd.moderation {
 	width: 40%;
@@ -169,7 +170,7 @@
 	font-size: 16px;
 	font-weight: 400;
 	text-decoration: none;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 .phpbb a.forumtitle:hover, .phpbb a.topictitle:hover {
 	text-decoration: underline;
@@ -221,7 +222,7 @@
 }
 .phpbb div.rules .inner {
 	padding: 10px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 .phpbb #information.rules .inner {
 	text-align: center;
@@ -259,7 +260,7 @@
 
 .phpbb #message.panel, .phpbb #confirm .panel {
 	padding: 10px;
-	line-height: 1.3em;
+	line-height: 1.5em;
 	font-size: 13px;
 }
 
@@ -518,7 +519,7 @@
 
 .phpbb p.author {
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	padding: 0;
 }
 
@@ -754,7 +755,7 @@
 */
 .phpbb .postbody .content {
 	font-size: 13px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 .phpbb .postbody img, .phpbb .postbody .attach-image {
@@ -788,7 +789,7 @@
 	border-top: 1px solid transparent;
 	padding-top: 4px;
 	margin-top: 10px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 /*
@@ -806,7 +807,8 @@
 	display: block;
 	border-bottom: 1px solid transparent;
 	margin-bottom: 4px;
-	padding: 0 0 4px
+	line-height: 1em;
+	padding: 2px 0 6px;
 }
 .phpbb .file dt {
 	border-bottom-width: 0;
@@ -980,7 +982,7 @@
 }
 
 .phpbb dl.details {
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 .phpbb span.corners-top + dl.details.left-box {
 	width: 100% !important;
@@ -1013,7 +1015,7 @@
 */
 .phpbb dl.faq {
 	padding-top: 6px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 .phpbb dl.faq:first-child {
 	padding-top: 0;
@@ -1021,6 +1023,7 @@
 .phpbb dl.faq dt {
 	padding-bottom: 4px;
 	font-size: 13px;
+	line-height: 1.5em;
 	font-weight: bold;
 }
 .phpbb #faqlinks .column1, .phpbb #faqlinks .column2 {
