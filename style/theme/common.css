@@ -32,7 +32,7 @@ footer, .phpbb header, .phpbb hgroup, .phpbb menu, .phpbb nav, .phpbb section {
 	display: block;
 }
 body.phpbb {
-	line-height: 1;
+	line-height: 1em;
 }
 .phpbb ol, .phpbb ul {
 	list-style: none;
@@ -79,7 +79,7 @@ body.simple {
 
 .phpbb p {
 	padding: 6px 0;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 .phpbb .rightside {
