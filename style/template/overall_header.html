@@ -131,13 +131,14 @@
 			<!-- ELSE -->
 				<li<!-- IF SCRIPT_NAME == 'ucp' and not S_USER_LOGGED_IN --> class="active"<!-- ENDIF -->><a href="{U_LOGIN_LOGOUT}" class="menu-login"><span>{L_LOGIN_LOGOUT}</span></a></li>
 			<!-- ENDIF -->
-			<!-- IF S_DISPLAY_SEARCH and U_SEARCH_ACTIVE_TOPICS and not S_IS_BOT -->
+			<!-- IF S_DISPLAY_SEARCH and (U_SEARCH_ACTIVE_TOPICS or S_USER_LOGGED_IN) and not S_IS_BOT -->
 			<li class="popup-trigger"><a href="javascript:void(0);" class="menu-down"></a>
 				<div class="popup popup-list"><ul>
 					<!-- IF U_SEARCH_UNANSWERED --><li><a href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a></li><!-- ENDIF -->
 					<!-- IF S_LOAD_UNREADS --><li><a href="{U_SEARCH_UNREAD}">{L_SEARCH_UNREAD}</a></li><!-- ENDIF -->
 					<!-- IF U_SEARCH_NEW and S_USER_LOGGED_IN and not S_IS_BOT --><li><a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a></li><!-- ENDIF -->
-					<li><a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a></li>
+					<!-- IF U_SEARCH_ACTIVE_TOPICS --><li><a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a></li><!-- ENDIF -->
+					<!-- IF S_USER_LOGGED_IN --><li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></li><!-- ENDIF -->
 				</ul></div>
 			</li>
 			<!-- ENDIF -->
