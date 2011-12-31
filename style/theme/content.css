@@ -634,6 +634,10 @@
 	padding-top: 0;
 	white-space: nowrap;
 }
+.phpbb .postprofile dd.poster-online {
+	text-align: center;
+	padding-top: 4px;
+}
 .phpbb .poster-avatar {
 	text-align: center;
 	margin: 4px 10px 4px 6px;
